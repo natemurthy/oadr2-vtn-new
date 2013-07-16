@@ -126,6 +126,7 @@ log4j = {
 }
 
 rabbitmq {
+	disableListening = true
     connectionfactory {
         username = 'guest'
         password = 'guest'

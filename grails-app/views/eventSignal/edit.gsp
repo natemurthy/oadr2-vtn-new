@@ -91,6 +91,7 @@
 		    <select name="type" class='signalType' placeholder="Select...">
 		      <option value='LEVEL'>Level</option>
 		      <option value='PRICE_RELATIVE'>Relative Price</option>
+			  <option value='DELTA'>Delta</option>
 		    </select>
 		  </div>
 	  </div>

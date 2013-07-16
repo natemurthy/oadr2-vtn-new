@@ -5,7 +5,8 @@ import com.enernoc.open.oadr2.model.SignalTypeEnumeratedType
 public enum SignalType {
     
     LEVEL( "level", SignalTypeEnumeratedType.LEVEL ),
-    PRICE_RELATIVE( "priceRelative", SignalTypeEnumeratedType.PRICE_RELATIVE);
+    PRICE_RELATIVE( "priceRelative", SignalTypeEnumeratedType.PRICE_RELATIVE),
+	DELTA( "delta", SignalTypeEnumeratedType.DELTA);
     // TODO price,etc
     
     private final String xmlValue
